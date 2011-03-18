@@ -10,7 +10,7 @@ class ComNewsDatabaseTableItems extends KDatabaseTableAbstract
 
         $options['filters'] = array( 
                         'slug'          => 'alias', 
-                        'description' => 'html' 
+                        'fulltext' => 'html', 'tidy' 
                 );  
 
 		parent::__construct($config);

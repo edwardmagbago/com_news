@@ -7,9 +7,7 @@ class ComNewsViewHtml extends ComDefaultViewHtml
 	{
 		$config->views = array(
 			'items'	 		=> JText::_('Items'),
-			'item' 			=> JText::_('Add Item'),
-			'categories' 		=> JText::_('Categories'),
-			'category' 		=> JText::_('Add Category'),
+			'categories'	=> JText::_('Categories'),
         );
 		
 		parent::__construct($config);
