@@ -1,0 +1,55 @@
+/* Form Title */
+.admin_form .main {
+}
+
+.admin_form .element.title {
+    width: 95%;
+    padding: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: #F0F0F0;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+}
+
+.element.title .item_title {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px solid #ddd;
+    display: block;
+    padding: 3px 10px;
+    color: #444;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.item_title input {
+    border: none;
+    color: #ccc;
+    font-size: 13px;
+    width: 93%;
+}
+
+.element.title .item_slug {
+    padding: 5px 0 0 25px;
+    display: block;
+    font-weight: bold;
+}
+
+.element.title .item_slug input {
+    width: 45%;
+}
+
+/* Form Image */
+.admin_form .element.image {
+    margin: 15px;
+    width: 95%;
+}
+
+/* Form Editor */
+.admin_form .element.editor {
+    padding: 15px;
+}
