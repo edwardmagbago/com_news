@@ -80,7 +80,7 @@ class ComNewsTemplateHelperListbox extends ComDefaultTemplateHelperListbox
             'attribs'    => array('id' => $config->name)
         ));
             
-        $base = KRequest::url()->setPath($config->directory)->get(KHttpUri::PART_BASE);
+        $base = KRequest::url()->setPath($config->directory)->get(KHttpUrl::PART_BASE);
                
 		jimport( 'joomla.filesystem.folder' );
 		$files  = JFolder::files( str_replace( KRequest::root()->path, '', JPATH_ROOT).DS.$config->directory );
