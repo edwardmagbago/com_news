@@ -18,7 +18,7 @@ class ComNewsDatabaseTableItems extends KDatabaseTableAbstract
     
 	protected function _initialize(KConfig $config)
     {
-    	$config->behaviors = array('sluggable', 'creatable', 'modifiable', 'orderable', 'hittable');
+    	$config->behaviors = array('sluggable', 'creatable', 'modifiable', 'orderable');
 	
 		parent::_initialize($config);
     }
